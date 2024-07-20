@@ -1,0 +1,125 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.navBar {
+  display: inline-flex;
+  background-color: #222222;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  border-radius: 9px;
+  padding: 4px 0px;
+}
+
+.navLink {
+  margin: 0 0.2em;
+  font-size: 1.5em;
+  color: #646cff;
+  text-decoration: none;
+}
+
+.navBar a {
+  color: #585c64;
+  padding: 7px 11px;
+}
+
+.navLink a:hover {
+  color: #353432;
+}
+
+.navLink a.active {
+  color: #a7a7ad;
+  text-decoration: overline;
+  text-decoration-thickness: 3.7px;
+  text-decoration-color: #353432;
+}
+
+.body {
+  width: 100px;
+}
+
+/* Resume */
+.about-page {
+  width: 530px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin: 0 auto;
+  padding: 2rem; */
+}
+
+.resumeFormat {
+  width: 700px;
+  height: 1103px;
+}
+
+/* max width */
+@media (max-width: 900px) {
+  .resumeFormat {
+    width: 100%;
+  }
+}
+
+/* Home */
+/* 
+.profile-image {
+  background: url("https://www.cnet.com/a/img/resize/2fb795e882da23c982183d005e124e85d42d4eba/hub/2020/05/05/be4dec08-f32e-4de5-b805-382ff58d7093/wwdc20-swift-student-challenge-og.jpg?auto=webp&fit=crop&height=675&width=1200")
+    50% 50% no-repeat; /* 50% 50% centers image in div 
+  width: 450px;
+  height: 450px;
+  border-radius: 49%;
+  pointer-events: none;
+} */
+
+.about-img-container {
+  display: inline-flex;
+  position: sticky;
+  width: 300px;
+}
+
+.about-img-container::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.profile-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 49%;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
