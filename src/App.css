@@ -17,10 +17,10 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-
+/* nav bar */
 .navBar {
   display: inline-flex;
-  background-color: #222222;
+  /* background-color: #22223b; */
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-evenly;
@@ -55,22 +55,6 @@
   width: 100px;
 }
 
-/* Resume */
-.about-page {
-  width: 530px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /* margin: 0 auto;
-  padding: 2rem; */
-}
-
-.resumeFormat {
-  width: 700px;
-  height: 1103px;
-}
-
 /* max width */
 @media (max-width: 900px) {
   .resumeFormat {
@@ -79,27 +63,6 @@
 }
 
 /* Home */
-/* 
-.profile-image {
-  background: url("https://www.cnet.com/a/img/resize/2fb795e882da23c982183d005e124e85d42d4eba/hub/2020/05/05/be4dec08-f32e-4de5-b805-382ff58d7093/wwdc20-swift-student-challenge-og.jpg?auto=webp&fit=crop&height=675&width=1200")
-    50% 50% no-repeat; /* 50% 50% centers image in div 
-  width: 450px;
-  height: 450px;
-  border-radius: 49%;
-  pointer-events: none;
-} */
-
-.about-img-container {
-  display: inline-flex;
-  position: sticky;
-  width: 300px;
-}
-
-.about-img-container::after {
-  content: "";
-  display: block;
-  padding-bottom: 100%;
-}
 
 .profile-image {
   position: absolute;
