@@ -20,15 +20,15 @@ function App() {
         <div>
           <Router>
             <Navbar />
-            <div>
-              <h1>Caesar's Portfolio 🙋🏽‍♂️</h1>
-            </div>
+            <div className="title"></div>
             <Routes>
               <Route path="*" element={<Navigate to="/" />} />
               <Route path="/" element={<Home />} />
               <Route path="/experience" element={<Experience />} />
               <Route path="/about" element={<About />} />
               <Route path="/resume" element={<Resume />} />
+              {/* timlein route */}
+              {/* <Route path="/timeline" element={<CustomizedTimeline />} /> */}
             </Routes>
           </Router>
         </div>

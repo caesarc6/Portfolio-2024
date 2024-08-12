@@ -1,10 +1,17 @@
+// import image from assest folder
+import image from "../../assets/profileImage.jpg";
+
 export const Home = () => {
   return (
     <div className="about-page">
-      <div className="about-img-container">
+      <div className="title">
+        <h1>Caesar's Portfolio 🙋🏽‍♂️</h1>
+      </div>
+      <div className="home-img-container">
         <img
           className="profile-image"
-          src="https://www.cnet.com/a/img/resize/2fb795e882da23c982183d005e124e85d42d4eba/hub/2020/05/05/be4dec08-f32e-4de5-b805-382ff58d7093/wwdc20-swift-student-challenge-og.jpg?auto=webp&fit=crop&height=675&width=1200"
+          //link image in assest folder
+          src={image}
           alt="Profile Image"
         />
       </div>
@@ -16,9 +23,8 @@ export const Home = () => {
       </p>
       <p>
         I have experience developing websites using frameworks and libaries such
-        as Node, React, API's, and more.
+        as Node, React, API's, Firebase.
       </p>
-      <p>+ more stuff.</p>
     </div>
   );
 };

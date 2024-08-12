@@ -1,0 +1,14 @@
+/* Resume */
+.about-page {
+  margin: auto;
+  width: 430px;
+  display: block;
+  justify-content: center;
+}
+
+a {
+  color: #385898;
+}
+a:hover {
+  color: #456bb8;
+}

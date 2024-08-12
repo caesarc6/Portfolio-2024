@@ -2,13 +2,11 @@ export const Resume = () => {
   return (
     <>
       <div className="resume-container">
+        <div className="title">
+          <h1>Resume</h1>
+        </div>
         <div className="resume-about-page">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            odio harum maiores exercitationem culpa perferendis eos. Ipsum,
-            illum iste. Error rerum quidem dignissimos molestias eum, fugiat
-            nobis minus facilis voluptatem.
-          </p>
+          <p></p>
         </div>
         <div className="resume-page">
           <iframe
