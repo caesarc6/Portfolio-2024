@@ -12,7 +12,7 @@ export const Experience = () => {
         <img className="img" src={collegeLogo} alt="JJC Logo" />
       </div>
       <p>
-        My degree consist of Digital Forensics, Cryptopgraphy, Object-Oriented
+        My degree consists of Digital Forensics, Cryptopgraphy, Object-Oriented
         Programming, Data Structures & Algorithms and Software Engineering.
       </p>
       <h1>Federal AI Hackathon</h1>
