@@ -5,7 +5,7 @@ export const Home = () => {
   return (
     <div className="about-page">
       <div className="title">
-        <h1>Caesar's Portfolio 🙋🏽‍♂️</h1>
+        <h1>Software Engineer & Security Enthusiast</h1>
       </div>
       <div className="home-img-container">
         <img
@@ -15,15 +15,21 @@ export const Home = () => {
           alt="Profile Image"
         />
       </div>
-      <h2>Software Developer</h2>
-      <p>Hello!</p>
+
+      <p>Hi, I'm Caesar 👋🏽</p>
       <p>
-        Welcome to my portfolio. Here you can read about my skills, technologies
-        and more.
+        I'm a full-stack developer and Computer Science graduate specializing in
+        secure web applications. With a background in Information Security and a
+        passion for clean code, I create robust solutions that prioritize both
+        user experience and data protection.
       </p>
       <p>
-        I have experience developing websites using frameworks and libaries such
-        as Node, React, API's, Firebase.
+        <span>Technical Expertise:</span>
+        <ul>
+          <li>Frontend: React, JavaScript, HTML/CSS, TailwindCSS</li>
+          <li>Backend: Node.js, Express, MongoDB, Firebase</li>
+          <li>Tools & Infrastructure: Git, RESTful APIs, Database Design</li>
+        </ul>
       </p>
     </div>
   );

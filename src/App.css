@@ -38,11 +38,13 @@
 
 .navBar a {
   color: #585c64;
+  /* color: #585c64; */
   padding: 7px 11px;
 }
 
 .navLink a:hover {
-  color: #353432;
+  color: #b0a899;
+  /* color: #353432; */
 }
 
 .navLink a.active {

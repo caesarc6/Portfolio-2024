@@ -17,7 +17,7 @@ function App() {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <>
-        <div>
+        <div style={{ justifySelf: "center" }}>
           <Router>
             <Navbar />
             <div className="title"></div>

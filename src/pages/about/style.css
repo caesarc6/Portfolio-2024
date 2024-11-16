@@ -1,8 +1,11 @@
 /* Resume */
 .about-page {
-  margin: auto;
-  width: 430px;
+  margin: 0 auto; /* Center the container horizontally */
+  max-width: 496px; /* Maximum width */
+  width: 100%; /* Takes full width up to max-width */
   display: block;
+  padding: 0 16px; /* Optional: adds some spacing on smaller screens */
+
   justify-content: center;
 }
 
