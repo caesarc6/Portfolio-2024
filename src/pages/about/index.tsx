@@ -4,6 +4,7 @@ export const About = () => {
       <div className="title">
         <h1>About Me</h1>
       </div>
+
       <p>
         <span>Hello! I'm Caesar 👋🏽 </span>
       </p>
