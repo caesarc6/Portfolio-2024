@@ -4,7 +4,8 @@ import "./App.css";
 
 const Navbar = () => {
   return (
-    <div className="navBar bg-card">
+    // drop-shadow-[0_1px_2px_3px_1px_rgba(0,0,0,0.11)]
+    <div className="navBar bg-card drop-shadow-[0_4px_2px_rgba(0,0,0,0.11)] ">
       <div className="navLink">
         <NavLink to="/">Home</NavLink>
       </div>
@@ -17,7 +18,7 @@ const Navbar = () => {
       <div className="navLink">
         <NavLink to="/resume">Resume</NavLink>
       </div>
-      <div className="navLink">
+      <div className="navLink max-sm:pr-[4px]">
         <ModeToggle />
       </div>
     </div>

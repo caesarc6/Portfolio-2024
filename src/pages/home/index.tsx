@@ -5,7 +5,7 @@ export const Home = () => {
   return (
     <div className="about-page">
       <div className="title">
-        <h1>Software Engineer & Security Enthusiast</h1>
+        <h1>Software Engineer</h1>
       </div>
       <div className="home-img-container">
         <img
@@ -27,7 +27,9 @@ export const Home = () => {
         <span>Technical Expertise:</span>
         <ul>
           <li>Frontend: React, JavaScript, HTML/CSS, TailwindCSS</li>
-          <li>Backend: Node.js, Express, MongoDB, Firebase</li>
+          <li>
+            Backend: Node, Next, Express , MongoDB, Firebase Auth, Supabase
+          </li>
           <li>Tools & Infrastructure: Git, RESTful APIs, Database Design</li>
         </ul>
       </p>
