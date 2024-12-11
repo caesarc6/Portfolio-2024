@@ -22,7 +22,7 @@ git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
  git push -f git@github.com:caesarc6/caesarc6.github.io.git 
-main
+main:gh-pages
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:caesarc6/Portfolio-2024.git 

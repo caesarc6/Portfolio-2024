@@ -34,6 +34,7 @@
   font-size: 1.5em;
   color: #646cff;
   text-decoration: none;
+  text-decoration-color: #d7d7d769;
 }
 
 .navBar a {
@@ -51,7 +52,7 @@
   color: #a7a7ad;
   text-decoration: overline;
   text-decoration-thickness: 3.7px;
-  text-decoration-color: #2e2e2e;
+  text-decoration-color: #d7d7d769;
 }
 
 .title {
