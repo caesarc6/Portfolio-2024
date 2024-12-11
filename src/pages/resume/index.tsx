@@ -3,7 +3,7 @@ export const Resume = () => {
     <>
       <div className="resume-container">
         <div className="title">
-          <h1>Resume</h1>
+          <h1 className="text-2xl font-medium">Resume</h1>
         </div>
         <div className="resume-about-page">
           <p></p>

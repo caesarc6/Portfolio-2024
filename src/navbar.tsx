@@ -4,7 +4,7 @@ import "./App.css";
 
 const Navbar = () => {
   return (
-    <div className="navBar bg-card">
+    <div className="navBar bg-card font-normal">
       <div className="navLink">
         <NavLink to="/">Home</NavLink>
       </div>

@@ -2,19 +2,17 @@ export const About = () => {
   return (
     <div className="about-page">
       <div className="title">
-        <h1>About Me</h1>
+        <h1 className="text-2xl font-medium">About Me</h1>
       </div>
-      <p>
-        <span>Hello! I'm Caesar 👋🏽 </span>
-      </p>
-      <p>
+      <h1 className="text-2xl">Who I Am</h1>
+      <p className="text-base font-light leading-7">
         As a recent graduate with a BS in Computer Science and Information
         Security, I blend software development expertise with a strong
         foundation in cybersecurity principles. I thrive on creating intuitive,
         secure applications that make a real difference in users' lives.
       </p>
-      <h1>What Drives Me</h1>
-      <p>
+      <h1 className="text-2xl">What Drives Me</h1>
+      <p className="text-base font-light leading-7">
         My fascination with technology goes beyond just writing code. I'm
         constantly exploring new ways to solve real-world problems through
         innovative solutions. Take my home server project, for example: Using a
@@ -23,9 +21,9 @@ export const About = () => {
         only solved a practical need but also deepened my command-line expertise
         and introduced me to the power of Emacs for efficient note-taking.
       </p>
-      <h1>Technical Toolkit</h1>
 
-      <p>
+      <h1 className="text-lg font-light">Technical Toolkit:</h1>
+      <p className="text-base font-light leading-7">
         <ul>
           <li>Frontend: React, TailwindCSS</li>
           <li>Backend: Node.js, Express</li>
@@ -33,15 +31,15 @@ export const About = () => {
           <li>Tools: Git, Terminal, Emacs</li>
         </ul>
       </p>
-      <h1>What I'm Looking For</h1>
-      <p>
+      <h1 className="text-2xl">What I'm Looking For</h1>
+      <p className="text-base font-light leading-7">
         I'm currently seeking a full-time Software Engineering role where I can
         leverage my full-stack development skills and security background. I'm
         particularly excited about opportunities that will challenge me to grow
         while contributing to meaningful projects.
       </p>
-      <h1>Let's Connect!</h1>
-      <p>
+      <h1 className="text-2xl">Let's Connect!</h1>
+      <p className="text-base font-light leading-7">
         I'm always eager to connect with fellow tech enthusiasts and potential
         collaborators. Find me on{" "}
         <a
