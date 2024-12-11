@@ -18,10 +18,9 @@ export const Home = () => {
 
       <p>Hi, I'm Caesar 👋🏽</p>
       <p>
-        I'm a full-stack developer and Computer Science graduate specializing in
-        secure web applications. With a background in Information Security and a
-        passion for clean code, I create robust solutions that prioritize both
-        user experience and data protection.
+        A full-stack developer with a background in Computer Science.
+        Specializing in web application development. I create robust solutions
+        that prioritize both user experience and data protection.
       </p>
       <p>
         <span>Technical Expertise:</span>
