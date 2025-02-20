@@ -24,8 +24,8 @@ git add -A
 git commit -m 'deploy'
 
 # Push to the gh-pages branch of the specified repository
-git push -f git@github.com:caesarc6/caesarc6.github.io.git gh-pages
-
+# git push -f git@github.com:caesarc6/caesarc6.github.io.git gh-pages
+git push -f git@github.com:/caesarc6.github.io/Portfolio-2024/
 cd -
 
 
