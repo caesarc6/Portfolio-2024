@@ -5,7 +5,7 @@ export const Home = () => {
   return (
     <div className="about-page">
       <div className="title">
-        <h1>Software Engineer</h1>
+        <h1 className="text-2xl font-light">Software Engineer</h1>
       </div>
       <div className="home-img-container">
         <img
