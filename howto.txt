@@ -1,0 +1,18 @@
+
+
+To update github pages.
+
+Commands to run:
+
+-----
+
+npm run deploy
+
+git add .
+git commit -m 'COMMENT'
+git push orign main
+
+chmod +x deploy.sh
+./deploy.sh
+
+------
