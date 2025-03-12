@@ -6,16 +6,16 @@ import rfcunyLogo from "../../assets/rfcuny-logo.png";
 export const Experience = () => {
   return (
     <div className="about-page">
-      <h1 className="text-2xl font-medium">Experience</h1>
-      <h1 className="text-2xl"> Education</h1>
+      <h1 className="text-2xl font-medium pb-6">Experience</h1>
+      {/* <h1 className="text-2xl"> Education</h1> */}
       <div className="about-img-container">
         <img className="img" src={collegeLogo} alt="JJC Logo" />
       </div>
       <br />
-      <h1 className="text-lg leading-7">
+      <h1 className="text-lg leading-7 pt-6">
         Bachelor of Science in Computer Science and Information Security
       </h1>
-      <i className="text-base font-extralight  leading-10">
+      <i className="text-base font-extralight leading-10">
         John Jay College of Criminal Justice, City University of New York
       </i>
       <ul className="font-light leading-7">
@@ -34,7 +34,7 @@ export const Experience = () => {
       <div className="about-img-container" style={{ width: "400px" }}>
         <img className="img" src={rfcunyLogo} alt="JJC Logo" />
       </div>
-      <h1 className="text-lg leading-7">
+      <h1 className="text-lg leading-7 pt-6">
         Department of Education | Research Foundation IT Intern
       </h1>
       <i className="font-light leading-6"> Oct 2022 – Aug 2024</i>
@@ -59,7 +59,7 @@ export const Experience = () => {
         <img className="img" src={gsaLogo} alt="JJC Logo" />
       </div>
       <br />
-      <h1 className="text-lg leading-7">
+      <h1 className="text-lg leading-7 pt-6">
         Federal AI Hackathon | Award-Winning Developer
       </h1>
       <h2 className="font-light text-lg leading-8">
@@ -91,7 +91,7 @@ export const Experience = () => {
       <div className="about-img-container">
         <img className="img" src={codePathLogo} alt="JJC Logo" />
       </div>
-      <h1 className="text-lg leading-7">CodePath | Technical Fellow</h1>
+      <h1 className="text-lg leading-7 pt-6">CodePath | Technical Fellow</h1>
       {/* <i className="font-light leading-6">2020</i> */}
       <ul className="font-light leading-7">
         Mobile Development Focus:

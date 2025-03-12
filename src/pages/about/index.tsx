@@ -1,8 +1,13 @@
+import city from "../../assets/city.jpg";
+
 export const About = () => {
   return (
     <div className="about-page">
       <div className="title">
-        <h1 className="text-2xl font-medium">About Me</h1>
+        <h1 className="text-2xl font-medium">About Me</h1>{" "}
+        <div className="about-img-container">
+          <img className="img" src={city} alt="JJC Logo" />
+        </div>
       </div>
       <h1 className="text-2xl">Who I Am</h1>
       <p className="text-base font-light leading-7">
