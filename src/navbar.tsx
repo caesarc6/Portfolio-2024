@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { ModeToggle } from "./components/mode-toggle";
+// import { ModeToggle } from "./components/mode-toggle";
 import "./App.css";
 import { Button } from "./components/ui/button";
 import { MoonIcon, SunIcon } from "lucide-react";
