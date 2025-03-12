@@ -10,7 +10,7 @@ npm run deploy
 
 git add .
 git commit -m 'COMMENT'
-git push orign main
+git push origin main
 
 chmod +x deploy.sh
 ./deploy.sh
